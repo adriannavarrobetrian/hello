@@ -14,3 +14,8 @@ process sayHello {
 workflow {
   Channel.of('Bonjour', 'Ciao', 'Hello', 'Hola') | sayHello | view
 }
+
+plugins {
+  id 'xpack-amzn'
+  id 'nf-sqldb'
+}
