@@ -12,5 +12,5 @@ process sayHello {
 }
 
 workflow {
-  Channel.of('HI', 'HI', 'HI', 'HI') | sayHello | view
+  Channel.of('HI2', 'H2I', 'HI2', 'HI2') | sayHello | view
 }
